@@ -1,0 +1,13 @@
+{
+  "extends": "@cloud-ru/ft-config-tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "#apps/main": ["apps/main/src"],
+      "#apps/admin": ["apps/admin/src"]
+    },
+    "declaration": false
+  },
+  "include": ["root/**/*", "apps/**/*"],
+  "exclude": ["node_modules"]
+}
